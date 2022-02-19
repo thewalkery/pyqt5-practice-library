@@ -21,4 +21,7 @@ pyrcc5 icons.qrc -o icons_rc.py
 
 # *.ui -> *.py
 pyuic5 library.ui -o library.py
+
+# Build an executable file(Output directory: build/)
+python setup.py build
 ```
