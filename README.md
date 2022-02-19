@@ -10,3 +10,15 @@ pip install cx_Freeze
 ```
 ## Screenshot
 ![screenshot](screenshot.png)
+
+## Tips
+```bash
+# QtDesigner
+pyqt5-tools designer
+
+# *.qrc -> *.py
+pyrcc5 icons.qrc -o icons_rc.py
+
+# *.ui -> *.py
+pyuic5 library.ui -o library.py
+```
